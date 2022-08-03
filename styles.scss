@@ -17,12 +17,11 @@ html {
     box-sizing: inherit;
   }
 
+
+
 body {
-    background-image: url("./images/bg-hero-mobile.svg");
-    background-repeat: no-repeat;
     font-size: 18px;
     margin: 0 auto;
-    // height: 100vh;
     width: 100%;
 }
 
@@ -34,17 +33,20 @@ h1, h2, h3, h4, h5, p {
     margin: 0;
 }
 
-// .container {
-//     background-color: #edfaff;
-//     width: 90%;
-//     margin: 0 auto;
-// }
+.top-section-background {
+    background-image: url("./images/bg-hero-mobile.svg");
+    background-repeat: no-repeat;
+    background-color: #edfaff;
+    height: 780px;
+    padding-top: 25px;
+}
+
+
 
 /** Header **/
 
 header {
-    margin-top: 25px;
-    margin-bottom: 85px;
+    margin-bottom: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,6 +96,9 @@ header {
         margin-bottom: 40px;
         font-weight: 400;
         font-size: 18px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     a {
@@ -124,7 +129,7 @@ header {
     padding: 0 5% 0 5%;
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 140px;
+    margin-bottom: 50px;
 }
 
 .section-2-info {
@@ -166,8 +171,13 @@ header {
     text-align: center;
     border: 1px solid #f2f2f2;
     border-radius: 15px;
-    padding: 50px 5% 2px 5%;
+    background-color: white;
+    padding: 40px 50px;
+    position: relative;
+    top: 70px;
     margin-bottom: 20px;
+    width: 93%;
+    margin: 0 auto;
     -webkit-box-shadow: 0px 0px 13px -9px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 13px -9px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 13px -9px rgba(0,0,0,0.75);
@@ -202,8 +212,8 @@ header {
 footer {
     background-color: #08242c;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
     line-height: 25px;
+    padding-top: 150px;
 
     p {
         color: white;
@@ -213,10 +223,18 @@ footer {
     a {
         color: white;
     }
+
+    img {
+        width: 180px;
+        height: 28px;
+        margin-bottom: 20px;
+    }
 }
 
 .contact-container {
     margin-bottom: 60px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .footer-contact {
@@ -232,6 +250,11 @@ footer {
 }
 
 /** Footer Links **/
+
+.footer-link-container {
+    width: 90%;
+    margin: 0 auto;
+}
 
 .footer-link {
     
@@ -261,7 +284,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 20px;
+    margin-top: 30px;
 
     a {
         text-decoration: none;
@@ -271,5 +294,69 @@ footer {
         color: white;
         height: 30px;
         width: 30px;
+    }
+}
+
+/** Media Query Desktop **/
+
+@media (min-width: 375px) {
+
+
+    /** Globals **/
+
+    /** Header **/
+
+    header {
+
+        margin-top: 30px;
+
+        img {
+            width: 200px;
+            height: 30px;
+        }
+
+        a {
+            padding: 18px 70px;
+            font-size: 18px;
+        }
+    }
+
+    /** Section 1 **/
+
+    .section-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 650px;
+        }
+    }
+
+    .section-1-info {
+
+        margin: 0;
+        text-align: left;
+        width: 600px;
+
+        h1, p, a {
+            margin: 0;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 40px;
+            line-height: 60px;
+        }
+
+        p {
+            width: 550px;
+            margin-bottom: 50px;
+        }
+
+        a {
+            padding: 20px 60px;
+            font-size: 15px
+        }
     }
 }
