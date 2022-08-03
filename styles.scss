@@ -304,6 +304,10 @@ footer {
 
     /** Globals **/
 
+    .top-section-background {
+        background-image: url("./images/bg-hero-desktop.svg");
+    }
+
     /** Header **/
 
     header {
@@ -358,5 +362,38 @@ footer {
             padding: 20px 60px;
             font-size: 15px
         }
+    }
+
+    /** Section 2 **/
+
+    .section-2-info {
+        display: flex;
+        justify-content: center;
+        gap: 200px;
+        text-align: left;
+        align-items: center;
+
+        .first {
+            order: 2;
+        }
+
+        .second {
+            width: 500px;
+        }
+
+        img {
+            width: 400px;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 25px;
+            padding-bottom: 60px;
+        }
+        
     }
 }

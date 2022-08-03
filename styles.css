@@ -255,6 +255,9 @@ footer img {
 /** Media Query Desktop **/
 @media (min-width: 375px) {
   /** Globals **/
+  .top-section-background {
+    background-image: url("./images/bg-hero-desktop.svg");
+  }
   /** Header **/
   header {
     margin-top: 30px;
@@ -296,6 +299,31 @@ footer img {
   .section-1-info a {
     padding: 20px 60px;
     font-size: 15px;
+  }
+  /** Section 2 **/
+  .section-2-info {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    text-align: left;
+    align-items: center;
+  }
+  .section-2-info .first {
+    order: 2;
+  }
+  .section-2-info .second {
+    width: 500px;
+  }
+  .section-2-info img {
+    width: 400px;
+  }
+  .section-2-info h3 {
+    font-size: 30px;
+  }
+  .section-2-info p {
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 60px;
   }
 }
 
