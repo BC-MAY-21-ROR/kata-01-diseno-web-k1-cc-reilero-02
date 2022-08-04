@@ -347,7 +347,7 @@ footer img {
     display: flex;
     align-items: center;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 60px;
   }
   footer img {
     width: 220px;
@@ -355,11 +355,17 @@ footer img {
   }
   /** Footer Contact **/
   .contact-container {
-    width: 600px;
+    width: 720px;
   }
   .contact-container p {
     font-size: 16.5px;
     line-height: 25px;
+  }
+  .footer-contact {
+    margin-bottom: 20px;
+  }
+  .footer-contact-middle {
+    margin-bottom: 10px;
   }
   /** Footer Links **/
   .footer-link-container {
@@ -369,7 +375,7 @@ footer img {
   }
   /** Socials **/
   .socials {
-    width: 500px;
+    width: 600px;
   }
   .socials p {
     text-align: left;

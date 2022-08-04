@@ -425,7 +425,7 @@ footer {
         display: flex;
         align-items: center;
         padding-left: 100px;
-        padding-right: 100px;
+        padding-right: 60px;
 
         img {
             width: 220px;
@@ -436,12 +436,20 @@ footer {
     /** Footer Contact **/
 
     .contact-container {
-        width: 600px;
+        width: 720px;
 
         p {
             font-size: 16.5px;
             line-height: 25px;
         }
+    }
+
+    .footer-contact {
+        margin-bottom: 20px;
+    }
+
+    .footer-contact-middle {
+        margin-bottom: 10px;
     }
 
     /** Footer Links **/
@@ -457,7 +465,7 @@ footer {
 
     .socials {
 
-        width: 500px;
+        width: 600px;
 
         p {
             text-align: left;
