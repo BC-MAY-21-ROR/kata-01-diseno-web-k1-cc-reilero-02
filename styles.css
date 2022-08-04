@@ -253,7 +253,7 @@ footer img {
 }
 
 /** Media Query Desktop **/
-@media (min-width: 375px) {
+@media (min-width: 376px) {
   /** Globals **/
   .top-section-background {
     background-image: url("./images/bg-hero-desktop.svg");
