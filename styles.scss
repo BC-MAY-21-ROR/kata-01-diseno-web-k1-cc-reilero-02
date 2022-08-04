@@ -396,4 +396,78 @@ footer {
         }
         
     }
+
+    /** Community **/
+
+    .community {
+        width: 800px;
+        height: 250px;
+        top: 90px;
+
+        h3 {
+            font-size: 30px;
+            margin-bottom: 50px;
+        }
+
+        a {
+            padding: 20px 80px;
+            font-size: 15px;
+        }
+    }
+
+    .community-content {
+        margin-top: 30px;
+    }
+
+    /** Footer **/
+
+    footer {
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+        padding-right: 100px;
+
+        img {
+            width: 220px;
+            height: 33px;
+        }
+    }
+
+    /** Footer Contact **/
+
+    .contact-container {
+        width: 600px;
+
+        p {
+            font-size: 16.5px;
+            line-height: 25px;
+        }
+    }
+
+    /** Footer Links **/
+
+    .footer-link-container {
+        display: flex;
+        justify-content: center;
+        gap: 130px;
+        
+    }
+
+    /** Socials **/
+
+    .socials {
+
+        width: 500px;
+
+        p {
+            text-align: left;
+            margin-top: 150px;
+        }
+    }
+
+    .socials-image {
+        margin-top: 140px;
+        justify-content: flex-start;
+    }
+
 }
